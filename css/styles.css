@@ -1,16 +1,22 @@
 body {
-  /* background-color: #004466;  */
-  background-color: #001f2e;
- 
+  /* background-color: #004466; */
+  background-color: #1c574d;
+  margin: 120px;
 }
-
-
 .wrapper {
-  text-align: center;         /* centra il contenuto*/
+  text-align: center;         /* centra il contenuto */
   margin:auto;             /* centra il div (wrapper) */
-  background-color: #00334d;
+  background: rgb(62, 102, 129);
+  background: linear-gradient(90deg, rgb(61, 155, 131) 0%, rgba(0,0,0,1) 100%);
 }
-
 #immagine {
   width: 30%;
+  border-radius: 60%;
+  border: 15px double rgb(174, 250, 255);
+  margin: 25px;
+}
+p {
+  font-size: 45px;
+  color: rgb(174, 250, 255);
+  padding-bottom: 50px;
 }
